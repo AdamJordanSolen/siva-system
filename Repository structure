@@ -1,5 +1,0 @@
-siva-system/
-├── index.html
-├── styles.css
-├── script.js
-└── memory.json        ← starts as {}
