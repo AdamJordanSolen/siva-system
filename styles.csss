@@ -1,0 +1,56 @@
+:root {
+  --core: #2A5D34;
+  --highlight: #88B04B;
+  --release: #F0E4D7;
+  --background: #FFFFFF;
+  --accent: #367588;
+}
+body {
+  background: var(--background);
+  color: var(--core);
+  font-family: sans-serif;
+  display: flex; align-items: center; justify-content: center;
+  height: 100vh; margin: 0;
+}
+#app {
+  border: 2px solid var(--core);
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(42,93,52,0.1);
+}
+header h1 {
+  margin: 0 0 8px;
+  color: var(--accent);
+}
+#output {
+  min-height: 100px;
+  margin-bottom: 16px;
+  padding: 8px;
+  background: var(--release);
+  border-radius: 4px;
+  font-style: italic;
+}
+textarea {
+  width: 100%;
+  height: 60px;
+  padding: 8px;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  font-size: 14px;
+  color: var(--core);
+}
+button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  background: var(--highlight);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+button:hover {
+  background: var(--core);
+}
